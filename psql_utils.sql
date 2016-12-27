@@ -1,2 +1,2 @@
 # Connect to DB
-psql -h localhost -p 5432 -U <dbuser> <dbname>
+psql -h <host_ip> -p <port> -U <dbuser> <dbname>
