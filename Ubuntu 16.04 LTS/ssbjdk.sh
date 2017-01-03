@@ -9,8 +9,11 @@ rm -f jdk-7u80-linux-x64.tar.gz
 sudo mv ~/Documents/jdk1.7.0_80/ /opt/
 cd ~/
 sudo nano /etc/environment
-# export JAVA_HOME=/opt/jdk1.7.0_80
-# export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/bin:$JAVA_HOME/bin
+# PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/bin"
+# JAVA_HOME="/opt/jdk1.7.0_80"
 sudo nano .bashrc
 # add the following lines at file's end
-# source /etc/environment
+# export PATH=$PATH:$JAVA_HOME/bin
+source .bashrc
+# test
+# java -version
