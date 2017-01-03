@@ -9,7 +9,8 @@ wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install postgresql-9.4
-sudo sed -i '93i host    all             postgres             127.0.0.1/32            trust' /etc/postgresql/9.4/main/pg_hba.conf
+sudo sed -i '92d' /etc/postgresql/9.4/main/pg_hba.conf
+sudo sed -i '92i host    all             all             127.0.0.1/32            trust' /etc/postgresql/9.4/main/pg_hba.conf
 sudo /etc/init.d/postgresql restart
 
 # host    all             all             127.0.0.1/32            md5
