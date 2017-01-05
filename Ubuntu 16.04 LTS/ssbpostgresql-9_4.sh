@@ -13,7 +13,6 @@ sudo sed -i '92d' /etc/postgresql/9.4/main/pg_hba.conf
 sudo sed -i '92i host    all             all             127.0.0.1/32            trust' /etc/postgresql/9.4/main/pg_hba.conf
 sudo /etc/init.d/postgresql restart
 
-# host    all             all             127.0.0.1/32            md5
 # host    all             all             127.0.0.1/32            trust
 
 # sudo -u postgres psql postgres
