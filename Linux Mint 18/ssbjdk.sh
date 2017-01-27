@@ -2,6 +2,8 @@
 
 # $ sudo sh ssbjdk.sh
 
+sudo apt-get update && apt-get remove openjdk*
+
 cd /opt
 sudo wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/7u80-b15/jdk-7u80-linux-x64.tar.gz
 sudo tar -xf jdk-7u80-linux-x64.tar.gz
