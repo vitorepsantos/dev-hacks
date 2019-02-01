@@ -1,4 +1,2 @@
 # devlifehacks
-Scripts that help
-
-Hope this can help others :)
+Scripts that help.
