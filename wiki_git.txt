@@ -1,9 +1,0 @@
-$ git tag (list local tags)
-
-$ git tag -d <tagname> (delete local tag)
-$ git tag -d v0.0.1
-
-$ git push --delete origin <tagname> (delete remote tag)
-$ git push --delete origin v0.0.1
-
-$ git remote -v (list remote repo address)o
