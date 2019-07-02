@@ -1,7 +1,0 @@
-# http://www.baeldung.com/maven-release-nexus
-
-$ mvn release:clean 
-$ mvn release:prepare 
-$ mvn release:perform 
-
-$ mvn release:rollback
