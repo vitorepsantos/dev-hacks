@@ -1,2 +1,2 @@
-# devlifehacks
+# dev-hacks
 Scripts that help.
